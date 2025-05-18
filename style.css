@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url("moun.jpeg");
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    border: 2px solid white;
+    box-shadow: 0 0 15px aqua,inset 0 0 10px aqua;
+    height: 25em;
+    width: 28em;
+    backdrop-filter: blur(8px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 2.8em;
+    margin-bottom: 1.2em;
+    font-weight: bolder;
+}
+
+.login:hover h1{
+    color: aqua;
+}
+.input{
+    position: relative;
+
+    
+    width: 25em;
+    height: 1.3em;
+    margin-bottom: 30px;
+    
+}
+
+.t{
+    height: 100px;
+    margin-bottom: 20px;
+    
+}
+
+.input input{
+    height: 150%;
+    width: 100%;
+    padding-left: 0.5em;
+    border-radius: 10px;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    outline: 0.2px solid white;
+    
+}
+
+.login:hover input{
+    border: 1px solid aqua;
+    box-shadow: 0 0 5px aqua,inset 0 0 5px aqua;
+    
+    outline: none;
+}
+
+.input input::placeholder{
+    color: white;
+}
+
+.icon{
+    position: absolute;
+    right: 0.7em;
+    transform: translateY(-30%);
+    top: 50%;
+    color: white;
+}
+
+.login:hover i{
+    color: aqua;
+}
+
+.rem-forgot{
+    width: 25em;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.rem-forgot a{
+    color: aqua;
+}
+
+input[type="checkbox"]{
+    accent-color: aqua;
+}
+
+button{
+    width: 400px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.login:hover button{
+    background-color: aqua;
+    border: none;
+    box-shadow: 0 0 5px aqua, inset 0 0 5px aqua;
+}
+
+p{
+    font-size: 18px;
+    margin-top: 18px;
+    font-weight: lighter;
+    color: white;
+}
+
+a{
+    color: aqua;
+}
